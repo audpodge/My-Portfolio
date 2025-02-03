@@ -53,22 +53,23 @@ I’ve come to understand, that what is in this exquisite corpse is a world I wa
 </h4>
         </div>
       </div>
-
+    </section>
       <div id="project-row">
-      <p id 02: INTEROP(ERABILITY) </p>
-    <p> </p>
+     02: INTEROP(ERABILITY) 
+    </div>
       <div class="three-model">
          <div id="model1"></div>
       </div>
-        <div id="images.square">
+        <div id="images-description">
+          <div id= "images">
          <a href="./houseDrawings/Blender.png" target="_blank"> 
-          <img src="./houseDrawings/Blender.png" id="model1" alt="Model 1 Image">
+          <img class = "square" src="./houseDrawings/Blender.png" id="model1" alt="Model 1 Image">
           </a>
           <a href="./houseDrawings/3D.jpg" target="_blank"> 
-          <img src="./houseDrawings/3D.jpg" id="model1" alt="Model 1 Image">
+          <img class = "square" src="./houseDrawings/3D.jpg" id="model1" alt="Model 1 Image">
           </a>
-          <a href="./houseDrawings/3D.jpg" target="_blank"> 
-          <img src="./houseDrawings/3D.jpg" id="model1" alt="Model 1 Image">
+          <a href="./houseDrawings/Paper.png" target="_blank"> 
+          <img class = "square" src="./houseDrawings/Paper.png" id="model1" alt="Model 1 Image">
           </a>
         </div>
     <div id="project-row">   
