@@ -95,15 +95,14 @@ h1 {
   align-items: center;
 }
 
-#model1,
-#model2,
-#model3 {
+#model1{
   height: 500px;
   width: 300px;
   margin-right: 3em;
   margin-left: 6em;
   border: 1px solid #ccc;
 }
+
 
 img {
   /* Image dimensions and margin */
@@ -123,7 +122,8 @@ img {
   margin-bottom: 30px;
 }
 
-img.square {
+#model2,
+#model3 {
   /* Image dimensions and margin */
   height: 170px;
   width: 170px;

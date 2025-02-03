@@ -59,33 +59,33 @@ I’ve come to understand, that what is in this exquisite corpse is a world I wa
     </div>
       <div class="three-model">
          <div id="model1"></div>
-      </div>
         <div id="images-description">
-          <div id= "images">
+          <div id= "images-3">
          <a href="./houseDrawings/Blender.png" target="_blank"> 
-          <img class = "square" src="./houseDrawings/Blender.png" id="model1" alt="Model 1 Image">
+          <img class = "square" src="./houseDrawings/Blender.png" id="model2" alt="Model 2 Image">
           </a>
           <a href="./houseDrawings/3D.jpg" target="_blank"> 
-          <img class = "square" src="./houseDrawings/3D.jpg" id="model1" alt="Model 1 Image">
+          <img class = "square" src="./houseDrawings/3D.jpg" id="model2" alt="Model 2 Image">
           </a>
           <a href="./houseDrawings/Paper.png" target="_blank"> 
-          <img class = "square" src="./houseDrawings/Paper.png" id="model1" alt="Model 1 Image">
+          <img class = "square" src="./houseDrawings/Paper.png" id="model2" alt="Model 2 Image">
           </a>
         </div>
     <div id="project-row">   
       <div id="images-4">
         <a href="./houseDrawings/board01.png" target="_blank">
-          <img class="board" src="./houseDrawings/board01.png" alt="board1" />
+          <img class="board" src="./houseDrawings/board01.png" id="model2" alt="Model 2 Image" />
         </a>
         <a href="./houseDrawings/board012.png target="_blank">
-          <img class="board" src="./houseDrawings/board012.png" alt="board2" />
+          <img class="board" src="./houseDrawings/board012.png" id="model2" alt="Model 2 Image" />
         </a>
         <a href="./houseDrawings/board013.png" target="_blank">
-          <img class="board" src="./houseDrawings/board013.png" alt="board3" />
+          <img class="board" src="./houseDrawings/board013.png" id="model2" alt="Model 2 Image" />
         </a>
         <a href="./houseDrawings/board014.png" target="_blank">
-          <img class="board" src="./houseDrawings/board014.png" alt="board4" />
+          <img class="board" src="./houseDrawings/board014.png" id="model2" alt="Model 2 Image" />
         </a>
+    </div>
     </div>
     <h4 id="description">Reflection<br>During this analysis, I was able to first discover that the FBX file type has more versatility in imports and exports, and doesn’t add extreme complexity within the meshes like STL files do. Additionally, as the files get more complex, the transfer with FBX outperforms the other file types explored. However, for ease of transferring materials, PLY seemed to do that best. Consequently, the binary got obstructed when importing the character model, which when researching the issue seems to be due to the complexity of the mesh, as it has a mix of trimesh and quadmesh, so that was a point to keep in mind as well. It was interesting to see the different responses the file types have to the changes in geometry. I also discovered that there is a lot of versatility within some of the geometry transformations as well, in that I was able to considerably simplify meshes with just one check box, which is extremely helpful for saving my laptop from overload. In addition, this exploration really allowed me to discover the different attributes of file types and geometries. 
 This led me to the conclusion that having objects in a Nurbs format creates a polysurface, which provides a lot of flexibility with what can be done to the model, such as booleans and explosions, which can’t both be done in mesh or subD. This finding led to the conclusion that despite mesh modeling being lighter on my laptop overall, Nurbs modeling/formatting presents more opportunities than mesh and subD. 
@@ -142,7 +142,7 @@ As for interoperability in future projects, I see this as a big asset. Moving fo
 `;
 
 //Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project2/Mimikyu.obj")
+createThreeScene("#model1", "/3DModels/project2/Mimikyu-1.obj")
 //createThreeScene("#model2", "/3DModels/project2/torus.obj");
 //createThreeScene("#model3", "/3DModels/project2/low_poly.obj");
 //createThreeScene("#model4", "/3DModels/project2/character.obj")
