@@ -57,7 +57,6 @@ I’ve come to understand, that what is in this exquisite corpse is a world I wa
       <div id="project-row">
       <p id 02: INTEROP(ERABILITY) </p>
     <p> </p>
-    <div id="project-row">
       <div class="three-model">
          <div id="model1"></div>
       </div>
@@ -66,8 +65,6 @@ I’ve come to understand, that what is in this exquisite corpse is a world I wa
           <img src="./houseDrawings/3D.jpg" id="model1" alt="Model 1 Image">
           </a>
         </div>
-      </div>
-    </div>
     <div id="project-row">   
       <div id="images-4">
         <a href="./a2images/board1.png" target="_blank">
@@ -84,7 +81,9 @@ I’ve come to understand, that what is in this exquisite corpse is a world I wa
         </a>
       </div>
     </div>
-    <h4 id="reflection-title">reflection<br></h4>
+    <h4 id="reflection-title">reflection<br>During this analysis, I was able to first discover that the FBX file type has more versatility in imports and exports, and doesn’t add extreme complexity within the meshes like STL files do. Additionally, as the files get more complex, the transfer with FBX outperforms the other file types explored. However, for ease of transferring materials, PLY seemed to do that best. Consequently, the binary got obstructed when importing the character model, which when researching the issue seems to be due to the complexity of the mesh, as it has a mix of trimesh and quadmesh, so that was a point to keep in mind as well. It was interesting to see the different responses the file types have to the changes in geometry. I also discovered that there is a lot of versatility within some of the geometry transformations as well, in that I was able to considerably simplify meshes with just one check box, which is extremely helpful for saving my laptop from overload. In addition, this exploration really allowed me to discover the different attributes of file types and geometries. 
+This led me to the conclusion that having objects in a Nurbs format creates a polysurface, which provides a lot of flexibility with what can be done to the model, such as booleans and explosions, which can’t both be done in mesh or subD. This finding led to the conclusion that despite mesh modeling being lighter on my laptop overall, Nurbs modeling/formatting presents more opportunities than mesh and subD. 
+As for interoperability in future projects, I see this as a big asset. Moving forward and having a deeper understanding of how to utilize specific settings, file types, and geometry formatting will help to expedite the process, and help to not over complicate certain processes that can be simplified using a combination of these elements. For example, if I wish to create a model that needs to be unfolded, much like this project, then I would need to convert the mesh to nurbs to be able to perform the task. Additionally, the file type should be imported in either OBJ or FBX, as STL and PLY wouldn’t provide the imported mesh needed. </h4>
     <h4 id="reflection">
       
     </section>
@@ -136,8 +135,8 @@ I’ve come to understand, that what is in this exquisite corpse is a world I wa
   </main>
 `;
 
-Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project2/Mimikyu.obj");
+//Create three.js scenes for each
+createThreeScene("#model1", "/3DModels/project2/Mimikyu.obj")
 //createThreeScene("#model2", "/3DModels/project2/torus.obj");
 //createThreeScene("#model3", "/3DModels/project2/low_poly.obj");
-//createThreeScene("#model4", "/3DModels/project2/character.obj");
+//createThreeScene("#model4", "/3DModels/project2/character.obj")
