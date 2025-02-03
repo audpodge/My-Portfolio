@@ -58,7 +58,7 @@ I’ve come to understand, that what is in this exquisite corpse is a world I wa
      02: INTEROP(ERABILITY) 
     </div>
       <div class="three-model">
-         <div id= "model1">
+         <div id= "model3">
          </div>
         <div id="images-description">
           <div id= "images-3">
@@ -144,7 +144,7 @@ As for interoperability in future projects, I see this as a big asset. Moving fo
 `;
 
 //Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project2/CharacterDesign.obj")
+
 //createThreeScene("#model2", "/3DModels/project2/torus.obj");
-//createThreeScene("#model3", "/3DModels/project2/low_poly.obj");
+createThreeScene("#model3", "/3DModels/project2/CharacterDesign.obj");
 //createThreeScene("#model4", "/3DModels/project2/character.obj")
