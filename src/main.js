@@ -58,7 +58,8 @@ I’ve come to understand, that what is in this exquisite corpse is a world I wa
      02: INTEROP(ERABILITY) 
     </div>
       <div class="three-model">
-         <div id="model1"></div>
+         <div id= "model1">
+         </div>
         <div id="images-description">
           <div id= "images-3">
          <a href="./houseDrawings/Blender.png" target="_blank"> 
@@ -91,7 +92,8 @@ I’ve come to understand, that what is in this exquisite corpse is a world I wa
 This led me to the conclusion that having objects in a Nurbs format creates a polysurface, which provides a lot of flexibility with what can be done to the model, such as booleans and explosions, which can’t both be done in mesh or subD. This finding led to the conclusion that despite mesh modeling being lighter on my laptop overall, Nurbs modeling/formatting presents more opportunities than mesh and subD. 
 As for interoperability in future projects, I see this as a big asset. Moving forward and having a deeper understanding of how to utilize specific settings, file types, and geometry formatting will help to expedite the process, and help to not over complicate certain processes that can be simplified using a combination of these elements. For example, if I wish to create a model that needs to be unfolded, much like this project, then I would need to convert the mesh to nurbs to be able to perform the task. Additionally, the file type should be imported in either OBJ or FBX, as STL and PLY wouldn’t provide the imported mesh needed. </h4>
     <h4 id="reflection">
-      
+
+  </div>  
     </section>
       ${/*//  Model 2
          <div class="three-model">
@@ -142,7 +144,7 @@ As for interoperability in future projects, I see this as a big asset. Moving fo
 `;
 
 //Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project2/Mimikyu-1.obj")
+createThreeScene("#model1", "/3DModels/project2/CharacterDesign.obj")
 //createThreeScene("#model2", "/3DModels/project2/torus.obj");
 //createThreeScene("#model3", "/3DModels/project2/low_poly.obj");
 //createThreeScene("#model4", "/3DModels/project2/character.obj")
