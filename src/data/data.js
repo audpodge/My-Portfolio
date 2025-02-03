@@ -7,7 +7,7 @@ const data = {
         email: "audreydiperno@gmail.com",
         phone: "+587 229 0941",
         linkedin: "",
-        github: "https://github.com/audpodge",
+        github: "Audpodge",
     }
 }
 

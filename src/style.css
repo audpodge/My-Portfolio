@@ -123,6 +123,16 @@ img {
   margin-bottom: 30px;
 }
 
+img.square {
+  /* Image dimensions and margin */
+  height: 170px;
+  width: 170px;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 #images-row {
   /* Row layout for images */
   display: flex;
